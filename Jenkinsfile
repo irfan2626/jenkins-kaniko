@@ -74,7 +74,7 @@ spec:
              pwd
              cd jenkins-kaniko/jenkins-k8-cicd-main
              ls
-            /kaniko/executor --context `pwd` --destination irfan2626/kaniko:${BUILD_NUMBER}
+            /kaniko/executor --context `pwd` --destination iran141/kaniko:${BUILD_NUMBER}
           '''
         }
 
