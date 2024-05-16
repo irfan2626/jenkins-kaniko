@@ -126,7 +126,7 @@ spec:
                   git clone https://oauth2:${HELM_REPO_PRIVATE_TOKEN}@github.com/irfan2626/k8-helm.git
                   ls
                   cd k8-helm/k8-helm-main
-                  helm upgrade --install hello -f charts/hello/values.yaml --set image.repository=iran141/kaniko:${BUILD_NUMBER} --namespace hello charts/hello/ --atomic --timeout 1m25s --cleanup-on-fail
+                  helm upgrade --install hello -f charts/hello/values.yaml --set image.repository=irfan2626/kaniko:${BUILD_NUMBER} --namespace hello charts/hello/ --atomic --timeout 1m25s --cleanup-on-fail
                '''
               }
             }
